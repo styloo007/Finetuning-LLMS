@@ -1,0 +1,24 @@
+
+LLM - Large Language Model ( Llama, Mistral, GPT ) -> SFT LORA and QLORA -> PEFT
+Quantization
+RLHF ( DPO, PPO, KTO ) -> Reinforcement Training
+
+Data->Transformers (Weights and Biases-Parameters + Attention)->Unsupervised Training on Unlabeled Data gives out Foundation Model or Base Model -> SFT on Labeled Data -> Fine Tuned LLM Model 
+
+LLM -> PreTraining (Foundation Model/Base Model) on Unlabeled Data -> SFT on labeled Data (LORA and QLORA )-> RLHF 
+
+LORA and QLORA -> Parameter Efficient Finetuning
+
+FineTuning -> Retraining a subset of parameters on a domain specific (Use case specific) data.
+
+SFT-> Instruction Fine Tuning
+
+LM (RNN, LSTM etc ) vs LLM ( BERT, T5, BART, GPT, GPT2 )
+
+SFT -> 1. Full Fine Tuning 2. Instruct FT 3. PEFT (LORA + QLORA) + Quantization
+
+
+
+
+
+
